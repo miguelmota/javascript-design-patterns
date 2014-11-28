@@ -6,6 +6,7 @@
 - [Decorator](http://en.wikipedia.org/wiki/Decorator_pattern)
 - [Strategy](http://en.wikipedia.org/wiki/Strategy_pattern)
 - [Facade](http://en.wikipedia.org/wiki/Facade_pattern)
+- [Proxy](http://en.wikipedia.org/wiki/Proxy_pattern)
 - [Mediator](http://en.wikipedia.org/wiki/Mediator_pattern)
 - [Observer](http://en.wikipedia.org/wiki/Observer_pattern)
 
