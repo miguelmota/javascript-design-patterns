@@ -1,7 +1,5 @@
 # Design Patterns in JavaScript
 
-Examples of the following patterns:
-
 - [Singleton](http://en.wikipedia.org/wiki/Singleton_pattern)
 - [Factory](http://en.wikipedia.org/wiki/Factory_method_pattern)
 - [Iterator](http://en.wikipedia.org/wiki/Iterator_pattern)
@@ -10,6 +8,8 @@ Examples of the following patterns:
 - [Facade](http://en.wikipedia.org/wiki/Facade_pattern)
 - [Mediator](http://en.wikipedia.org/wiki/Mediator_pattern)
 - [Observer](http://en.wikipedia.org/wiki/Observer_pattern)
+
+Below are simple code examples of the above design patterns implemented in JavaScript.
 
 # Singleton
 
@@ -164,7 +164,7 @@ console.log(sale.getPrice()); // $105.00
 
 # Strategy
 
-The Strategy pattern selects functionality at runtime depending on context.
+The Strategy pattern selects functionality at runtime depending on the context.
 
 ```javascript
 var validator = {
@@ -470,6 +470,7 @@ paper.readTweets = function(tweet) {
 };
 
 joe.subscribe(paper.readTweets);
+joe.tweet('hated the paper today'); // Someone hated the paper today
 ```
 
 # Resources
